@@ -1,0 +1,11 @@
+var http = require('http');
+var uc = require('upper-case');
+http.createServer(function (req, res){
+    res.writeHead(200, {'Content-Type':'text/html'});
+    res.write(uc('Hello World'));
+    res.end();
+}).listen(8080);
+
+const cryptoRandomString = require('crypto-random-string');
+ 
+console.log(cryptoRandomString(9));

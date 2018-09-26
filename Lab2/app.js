@@ -5,3 +5,4 @@ ft.teamname = 'Leafs';
 
 //call module method
 ft.Cheer();
+ft.Boo();

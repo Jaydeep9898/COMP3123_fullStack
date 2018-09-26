@@ -1,4 +1,4 @@
-var ft = require('./sportsteam');
+var ft = require('./index.js');
 
 //set module property
 ft.teamname = 'Leafs';

@@ -1,6 +1,9 @@
-exports.Add  = function(a,b){
-    return a+b;
-}
-exports.Subtract = function(a,b){
-    return a-b;
-}
+module.exports = {
+    Add:function(a,b){
+        return a+b;
+    },
+
+    Subtract:function(a,b){
+        return a-b;
+    }
+};
